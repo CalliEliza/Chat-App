@@ -4,4 +4,6 @@ using:
   express,
   socket.io,
   node.js, 
-  pug
+ 
+built with the help of the tutorial below:
+http://javabeginnerstutorial.com/javascript-2/create-simple-chat-application-using-node-js-express-js-socket-io/
