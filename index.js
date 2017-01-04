@@ -1,13 +1,13 @@
 var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
-var parth = require('path');
+var path = require('path');
 
 //Initializa app with routing
 app.get('/', function(req, res) {
   var express=require('express');
-  app.use(express.static(__dirname + '/public');
-  res.sendFile(path.join(__dirnname,'../public', 'index.html'));
+  app.use(express.static(__dirname + '/public'));
+  res.sendFile(path.join(__dirname,'/public', 'index.html'));
 });
 
 //register event on socket connection
